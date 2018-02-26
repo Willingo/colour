@@ -33,7 +33,8 @@ from .diagrams import (chromaticity_diagram_plot_CIE1931,
                        spds_chromaticity_diagram_plot_CIE1960UCS,
                        spds_chromaticity_diagram_plot_CIE1976UCS)
 from .corresponding import corresponding_chromaticities_prediction_plot
-from .geometry import (quad, grid, cube)
+from .geometry import quad, grid, cube
+from .machado2009 import cvd_simulation_Machado2009_plot
 from .models import (
     RGB_colourspaces_chromaticity_diagram_plot_CIE1931,
     RGB_colourspaces_chromaticity_diagram_plot_CIE1960UCS,
@@ -84,6 +85,7 @@ __all__ += [
 ]
 __all__ += ['corresponding_chromaticities_prediction_plot']
 __all__ += ['quad', 'grid', 'cube']
+__all__ += ['cvd_simulation_Machado2009_plot']
 __all__ += [
     'RGB_colourspaces_chromaticity_diagram_plot_CIE1931',
     'RGB_colourspaces_chromaticity_diagram_plot_CIE1960UCS',
